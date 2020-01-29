@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.miwok.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_height="88dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="@string/category_numbers"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:onClick="goToNumbersActivity"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_height="88dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="@string/category_family"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:onClick="goToFamilyActivity"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_height="88dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="@string/category_colors"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:onClick="goToColorssActivity"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_height="88dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="@string/category_phrases"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:onClick="goToPhrasessActivity"
+        android:paddingLeft="16dp" />
+
+</LinearLayout>
